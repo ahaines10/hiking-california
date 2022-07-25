@@ -1,0 +1,29 @@
+<%- include('../partials/header') %>
+
+<table id="list">
+  <thead>
+    <tr>
+      <th>Name</th>
+      <th>loaction</th>
+      <th>difficulty</th>
+      <th>swimming</th>
+    </tr>
+  </thead>
+  <tbody>
+    <% hikes.forEach(function(m) { %>
+      <tr>
+        <td><%= m.name %></td>
+        <td><%= m.location %></td>
+        <td><%= m.difficulty %></td>
+        <td><%= m.swimming ? "yes" : "No" %></td>
+        <td><a href="/hikes/<%= m._id %>">DETAILS</a></td>
+      </tr>
+      <% }); %>
+    </tbody>
+  </table>
+  
+<%- include('../partials/footer') %>
+    
+  
+
+

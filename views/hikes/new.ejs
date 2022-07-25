@@ -1,0 +1,19 @@
+<%- include('../partials/header') %>
+<form id="new-form" action="/hikes" method="POST">
+    <label>Name:</label>
+    <input type="text" name="name">
+    <label>Location:</label>
+    <input type="text" name="location">
+    <label>Difficulty:</label>
+    <select name="difficulty">
+      <option value="beginner">beginner</option>
+      <option value="intermediate">intermediate</option>
+      <option value="advanced">advanced</option>
+    
+    </select>
+    <label>swimming:</label>
+    <input type="checkbox" name="swimming" checked>
+    <input type="submit" value="Add Hike">
+  </form>
+
+<%- include('../partials/footer') %>

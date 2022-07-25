@@ -1,11 +1,25 @@
-Hikes = require('../models/hikes')
+const Hike = require("../models/hike");
 
 module.exports = {
-index,
+  index,
+  new: newHike,
+  create,
 };
 
 function index(req, res) {
-    Hikes.find({}, function(err, flights) {
-        res.render('flights/index', { title: 'All Flights', flights});
-      });
-    }
+  Hike.find({}, function (err, hikes) {
+    res.render("hikes/index", { title: "All Hikes", hikes });
+  });
+}
+function newHike(req, res) {
+  res.render("hikes/new", {title: 'Add Hikes'});
+}
+function create(req, res) {
+    req.body.swimming = !!req.body.swimming;
+  var hike = new Hike(req.body);
+  console.log(hike);
+  hike.save(function (err) {
+    if (err) return res.redirect("/hikes/new");
+    res.redirect("/hikes");
+  });
+}
