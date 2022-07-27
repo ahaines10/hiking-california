@@ -1,24 +1,20 @@
 <%- include('../partials/header') %>
-<form id="new-form" action="/hikes" method="POST">
+<form id="new-form" action="/hikes/<%=hike._id%>?_method=PUT" method="POST">
   <label>Name:</label>
-  <input type="text" name="name" />
+  <input type="text" name="name" value="<%=hike.name %>" />
   <label>image:</label>
-  <input type="text" name="image" />
+  <input type="text" name="image" value="<%=hike.image %>" />
   <label>Location:</label>
-  <input type="text" name="location" />
+  <input type="text" name="location" value="<%=hike.location %>" />
   <label>Difficulty:</label>
-  <select name="difficulty">
+  <select name="difficulty" value="<%=hike.difficulty%>">
     <option value="beginner">beginner</option>
     <option value="intermediate">intermediate</option>
     <option value="advanced">advanced</option>
   </select>
   <label>swimming:</label>
-  <input type="checkbox" name="swimming" checked />
+  <input type="checkbox" name="swimming" value="<%= hike.swimming %>"/>
   <input type="submit" value="Add Hike" />
 </form>
-
-  
-
-
 
 <%- include('../partials/footer') %>

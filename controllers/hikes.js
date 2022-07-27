@@ -4,6 +4,9 @@ module.exports = {
   index,
   new: newHike,
   create,
+  show,
+  edit,
+  update
 };
 
 function index(req, res) {
@@ -12,10 +15,10 @@ function index(req, res) {
   });
 }
 function newHike(req, res) {
-  res.render("hikes/new", {title: 'Add Hikes'});
+  res.render("hikes/new", { title: "Add Hikes" });
 }
 function create(req, res) {
-    req.body.swimming = !!req.body.swimming;
+  req.body.swimming = !!req.body.swimming;
   var hike = new Hike(req.body);
   console.log(hike);
   hike.save(function (err) {
@@ -23,3 +26,29 @@ function create(req, res) {
     res.redirect("/hikes");
   });
 }
+function show(req, res) {
+  Hike.findById(req.params.id, function (err, hike) {
+    console.log(hike);
+    res.render("hikes/show", { title: "Hike details", hike });
+  });
+}
+function edit(req, res) {
+  Hike.findById(req.params.id, function (err, hike) {
+    res.render("hikes/edit", { title: "Edit Hike", hike})
+  })
+}
+function update(req, res) {
+  req.body.swimming= !!req.body.swimming
+  Hike.findByIdAndUpdate(
+   req.params.id,
+    // update object with updated properties
+    req.body,
+    // options object with new: true to make sure updated doc is returned
+    {new: true},
+    function(err, hike) {
+      if (err || !hike) return res.redirect('/hikes');
+      res.redirect(`/hikes/${hike._id}`);
+    }
+  );
+}
+

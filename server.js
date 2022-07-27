@@ -11,6 +11,7 @@ require('./config/database');
 
 var indexRouter = require('./routes/index');
 var hikesRouter = require('./routes/hikes');
+var reviewsRouter = require('./routes/reviews') 
 require('./config/passport');
 
 
@@ -40,6 +41,7 @@ app.use(methodOverride('_method'));
 
 app.use('/', indexRouter);
 app.use('/hikes', hikesRouter);
+app.use('/', reviewsRouter)
 
 // catch 404 and forward to error handler
 app.use(function(req, res, next) {

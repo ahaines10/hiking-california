@@ -3,15 +3,18 @@
 <table id="list">
   <thead>
     <tr>
+      <th>image</th>
       <th>Name</th>
       <th>loaction</th>
       <th>difficulty</th>
       <th>swimming</th>
+      
     </tr>
   </thead>
   <tbody>
     <% hikes.forEach(function(m) { %>
       <tr>
+        <td><img src="<%= m.image %>" width="200px"></img></td>
         <td><%= m.name %></td>
         <td><%= m.location %></td>
         <td><%= m.difficulty %></td>
