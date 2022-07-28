@@ -31,7 +31,7 @@ Welcome to best hiking places in california. In this app you will be able to cre
     src="https://i.imgur.com/zIDW6zY.jpg"
     width="700"
 
-/> |
+/>
 
 </details>
 
@@ -41,10 +41,11 @@ Welcome to best hiking places in california. In this app you will be able to cre
    <h3 align="center">Home page</h3> | <img
     src="https://i.imgur.com/pSQxHyP.png"
     width="700"
-  /> |
+  />
 
    <h3 align="center">All Hikes page</h3> | <img
     src="https://i.imgur.com/iIzY7yD.png"
     width="700"
-  /> |
+  /> 
 </details>
+## :computer: Technologies Used
