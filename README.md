@@ -49,14 +49,14 @@ Welcome to best hiking places in california. In this app you will be able to cre
   /> 
 </details>
  ## :computer: Technologies Used
- [HTML5](https://img.shields.io/badge/-HTML5-333?style=flat&logo=html5)
-[CSS3](https://img.shields.io/badge/-CSS-333?style=flat&logo=css3)
-[Trello](https://img.shields.io/badge/-Trello-333?style=flat&logo=trello)
-[Heroku](https://img.shields.io/badge/-Heroku-333?style=flat&logo=heroku)
-[Express](https://img.shields.io/badge/-Express-333?style=flat&logo=express)
-[Github](https://img.shields.io/badge/-GitHub-333?style=flat&logo=github)
-[VSCode](https://img.shields.io/badge/-VS_Code-333?style=flat&logo=visualstudio)
-[JavaScript](https://img.shields.io/badge/-JavaScript-333?style=flat&logo=javascript)
+![HTML5](https://img.shields.io/badge/-HTML5-333?style=flat&logo=html5)
+![CSS3](https://img.shields.io/badge/-CSS-333?style=flat&logo=css3)
+![Trello](https://img.shields.io/badge/-Trello-333?style=flat&logo=trello)
+![Heroku](https://img.shields.io/badge/-Heroku-333?style=flat&logo=heroku)
+![Express](https://img.shields.io/badge/-Express-333?style=flat&logo=express)
+![Github](https://img.shields.io/badge/-GitHub-333?style=flat&logo=github)
+![VSCode](https://img.shields.io/badge/-VS_Code-333?style=flat&logo=visualstudio)
+![JavaScript](https://img.shields.io/badge/-JavaScript-333?style=flat&logo=javascript)
 <h2>:fire: Getting Started</h2>
 
 <h3>:calling: Instructions</h3>
