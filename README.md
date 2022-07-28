@@ -48,7 +48,7 @@ Welcome to best hiking places in california. In this app you will be able to cre
     width="700"
   /> 
 </details>
- :computer: Technologies Used
+ ##:computer: Technologies Used
  ![HTML5](https://img.shields.io/badge/-HTML5-333?style=flat&logo=html5)
 ![CSS3](https://img.shields.io/badge/-CSS-333?style=flat&logo=css3)
 ![Trello](https://img.shields.io/badge/-Trello-333?style=flat&logo=trello)
@@ -64,30 +64,12 @@ Welcome to best hiking places in california. In this app you will be able to cre
   <summary>How to Create a Post</summary>
   <ol>
     <li>
-      To create a post ypou have to click the add hike button
+      To create a post you have to click the add hike button
     </li>
     <li>
      Click on edit hikes to edit a hike
     </li>
     <li>Click the add review to add a review</li>
-  </ol>
-</details>
-
-<details>
-  <summary>How to Interact With Others' Posts</summary>
-  <ol>
-    <li>
-      Posts may be "liked" or "disliked" by clicking on the thumbs up or down
-      button on their card.
-    </li>
-    <li>
-      To reveal the author of a post, hover over the "Who could it possibly be?"
-      button.
-    </li>
-    <li>
-      To see more posts by the same user, click on the revealed username and
-      profile picture.
-    </li>
   </ol>
 </details>
 
@@ -107,7 +89,7 @@ Welcome to best hiking places in california. In this app you will be able to cre
 
 ### Upcoming Features
 
-- [x] Being able to get a home page button working
+- [ ] Being able to get a home page button working
 
 - [ ] Adding hikes in other states
 
