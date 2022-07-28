@@ -57,3 +57,58 @@ Welcome to best hiking places in california. In this app you will be able to cre
 ![Github](https://img.shields.io/badge/-GitHub-333?style=flat&logo=github)
 ![VSCode](https://img.shields.io/badge/-VS_Code-333?style=flat&logo=visualstudio)
 ![JavaScript](https://img.shields.io/badge/-JavaScript-333?style=flat&logo=javascript)
+<h2>:fire: Getting Started</h2>
+
+<h3>:calling: Instructions</h3>
+<details open>
+  <summary>How to Create a Post</summary>
+  <ol>
+    <li>
+      To create a post ypou have to click the add hike button
+    </li>
+    <li>
+     Click on edit hikes to edit a hike
+    </li>
+    <li>Click the add review to add a review</li>
+  </ol>
+</details>
+
+<details>
+  <summary>How to Interact With Others' Posts</summary>
+  <ol>
+    <li>
+      Posts may be "liked" or "disliked" by clicking on the thumbs up or down
+      button on their card.
+    </li>
+    <li>
+      To reveal the author of a post, hover over the "Who could it possibly be?"
+      button.
+    </li>
+    <li>
+      To see more posts by the same user, click on the revealed username and
+      profile picture.
+    </li>
+  </ol>
+</details>
+
+<details>
+  <h3>:link: Links</h3>
+  <summary>Trello Board</summary>
+  <a href="https://trello.com/b/2DZgcoYD/p2"
+    >https://trello.com/b/2DZgcoYD/p2</a>
+</details>
+
+<details open>
+  <summary>Deployed Link (Heroku)</summary>
+  <a href="https://hiking-california-1487.herokuapp.com/"
+    >https://hiking-california-1487.herokuapp.com/</a>
+</details>
+## :fast_forward: Next Steps
+
+### Upcoming Features
+
+- [x] Being able to get a home page button working
+
+- [ ] Adding hikes in other states
+
+- [ ] Add edit and update functionality for a user's profile
