@@ -48,4 +48,4 @@ Welcome to best hiking places in california. In this app you will be able to cre
     width="700"
   /> 
 </details>
-## :computer: Technologies Used
+ :computer: Technologies Used
