@@ -6,7 +6,7 @@ module.exports = {
   create,
   show,
   edit,
-  update
+  update,
 };
 
 function index(req, res) {
@@ -19,6 +19,7 @@ function newHike(req, res) {
 }
 function create(req, res) {
   req.body.swimming = !!req.body.swimming;
+  req.body.user = req.user._id;
   var hike = new Hike(req.body);
   console.log(hike);
   hike.save(function (err) {
@@ -34,21 +35,20 @@ function show(req, res) {
 }
 function edit(req, res) {
   Hike.findById(req.params.id, function (err, hike) {
-    res.render("hikes/edit", { title: "Edit Hike", hike})
-  })
+    res.render("hikes/edit", { title: "Edit Hike", hike });
+  });
 }
 function update(req, res) {
-  req.body.swimming= !!req.body.swimming
-  Hike.findByIdAndUpdate(
-   req.params.id,
+  req.body.swimming = !!req.body.swimming;
+  Hike.findOneAndUpdate(
+    { _id: req.params.id, user: req.user._id },
     // update object with updated properties
     req.body,
     // options object with new: true to make sure updated doc is returned
-    {new: true},
-    function(err, hike) {
-      if (err || !hike) return res.redirect('/hikes');
+    { new: true },
+    function (err, hike) {
+      if (err || !hike) return res.redirect("/hikes");
       res.redirect(`/hikes/${hike._id}`);
     }
   );
 }
-

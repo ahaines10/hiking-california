@@ -1,6 +1,6 @@
 <%- include('../partials/header') %>
 
-<table id="list">
+<!-- <table id="list">
   <thead>
     <tr>
       <th>image</th>
@@ -23,10 +23,23 @@
       </tr>
       <% }); %>
     </tbody>
-  </table>
-  
+  </table> -->
+<div class="card-container">
+  <% hikes.forEach(function(m) { %>
+  <div class="card" style="width: 18rem">
+    <img
+      src="<%= m.image %>"
+      class="card-img-top"
+      alt="..."
+      width="200"
+      height="200"
+    />
+    <div class="card-body">
+      <h5 class="card-title"><%= m.name %></h5>
+      <p class="card-text"><%= m.location %></p>
+      <a href="/hikes/<%= m._id %>" class="btn btn-primary">DETAILS</a>
+    </div>
+  </div>
+  <% }); %>
+</div>
 <%- include('../partials/footer') %>
-    
-  
-
-
