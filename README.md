@@ -36,10 +36,6 @@ Welcome to best hiking places in california. In this app you will be able to cre
 <details>
   <summary>:art: Wireframes</summary>
 
-|    Description     | Screenshot |
-| :----------------: | ---------- |
-| <h3>Home Page</h3> | <img       |
-
     src="https://i.imgur.com/iIzY7yD.png"
     width="700"
 
@@ -54,16 +50,11 @@ Welcome to best hiking places in california. In this app you will be able to cre
 <details open>
   <summary>:gear: Functionality</summary>
 
-|    Description     | Screenshot |
-| :----------------: | ---------- |
-| <h3>Feed Page</h3> | <img       |
-
-    src="https://github.com/amarpan/meet-your-classmates/blob/main/public/Screenshots/FeedPage.png?raw=true"
-    width="700"
+|
 
 /> |
 | <h3 align="center">Profile Page</h3> | <img
-    src="https://github.com/amarpan/meet-your-classmates/raw/main/public/Screenshots/ProfilePage.png"
+    src="https://i.imgur.com/pSQxHyP.png"
     width="700"
   /> |
 
