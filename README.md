@@ -1,6 +1,6 @@
 <div align="center">
 <h1>
-:school_satchel: :school: Hiking California :school: :school_satchel:
+:mountain: :school: Hiking California :mountain:
 </h1>
 
 <h3>https://hiking-california-1487.herokuapp.com/</h3>
@@ -23,14 +23,13 @@ Welcome to best hiking places in california. In this app you will be able to cre
 <details>
   <summary>:bar_chart: ERD</summary>
 
-| Description  | Screenshot |
-| :----------: | ---------- |
-| <h3>ERD</h3> | <img       |
+| Description  | Screenshot                                 |
+| :----------: | ------------------------------------------ |
+| <h3>ERD</h3> | <img src="https://i.imgur.com/zIDW6zY.jpg" |
 
-    src="https://``github.com/amarpan/meet-your-classmates/raw/main/public/Screenshots/ERD.MYC.png"
     width="700"
 
-/> |
+/> | |
 
 </details>
 
@@ -41,12 +40,12 @@ Welcome to best hiking places in california. In this app you will be able to cre
 | :----------------: | ---------- |
 | <h3>Home Page</h3> | <img       |
 
-    src="https://github.com/amarpan/meet-your-classmates/raw/main/public/Screenshots/Homepage.Wireframe.MYC.png"
+    src="https://i.imgur.com/iIzY7yD.png"
     width="700"
 
 /> |
 | <h3 align="center">Profile Page</h3> | <img
-    src="https://github.com/amarpan/meet-your-classmates/raw/main/public/Screenshots/ProfilePage.Wireframe.MYC.png"
+    src="https://i.imgur.com/pSQxHyP.png"
     width="700"
   /> |
 
