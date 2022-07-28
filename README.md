@@ -20,42 +20,45 @@ Welcome to best hiking places in california. In this app you will be able to cre
 </p>
 
 </div>
+
 <details>
   <summary>:bar_chart: ERD</summary>
 
-| Description  | Screenshot                                 |
-| :----------: | ------------------------------------------ |
-| <h3>ERD</h3> | <img src="https://i.imgur.com/zIDW6zY.jpg" |
+| Description  | Screenshot |
+| :----------: | ---------- |
+| <h3>ERD</h3> | <img       |
 
+    src="https://i.imgur.com/zIDW6zY.jpg"
     width="700"
 
-/> | |
+/> |
 
 </details>
 
 <details>
   <summary>:art: Wireframes</summary>
 
-    src="https://i.imgur.com/iIzY7yD.png"
-    width="700"
+|    Description     | Screenshot |
+| :----------------: | ---------- |
+| <h3>Home Page</h3> | <img       |
 
-/> |
-| <h3 align="center">Profile Page</h3> | <img
     src="https://i.imgur.com/pSQxHyP.png"
     width="700"
-  /> |
+
+/>
 
 </details>
 
 <details open>
   <summary>:gear: Functionality</summary>
 
-|
+|    Description     | Screenshot |
+| :----------------: | ---------- |
+| <h3>Feed Page</h3> | <img       |
 
-/> |
-| <h3 align="center">Profile Page</h3> | <img
-    src="https://i.imgur.com/pSQxHyP.png"
+    src="https://i.imgur.com/iIzY7yD.png"
     width="700"
-  /> |
+
+/>
 
 </details>
