@@ -36,7 +36,7 @@ Welcome to best hiking places in california. In this app you will be able to cre
 </details>
 
 <details>
-  <summary>:art: Wireframes</summary>
+  <summary>:art: screenshots</summary>
 
    <h3 align="center">Home page</h3> | <img
     src="https://i.imgur.com/pSQxHyP.png"
