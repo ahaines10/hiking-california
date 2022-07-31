@@ -5,7 +5,7 @@ const isLoggedIn = require("../config/auth");
 
 router.get("/", hikesCtrl.index);
 router.get("/new", isLoggedIn, hikesCtrl.new);
-router.post("/", hikesCtrl.create);
+router.post("/",isLoggedIn, hikesCtrl.create);
 router.get("/:id", hikesCtrl.show);
 router.get("/:id/edit", isLoggedIn, hikesCtrl.edit);
 router.put("/:id", hikesCtrl.update);
