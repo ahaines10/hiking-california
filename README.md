@@ -1,9 +1,9 @@
 <div align="center">
 <h1>
-:mountain: :school: Hiking California :mountain:
+:mountain: :school: Vacation Tracker :mountain:
 </h1>
 
-<h3>https://hiking-california-1487.herokuapp.com/</h3>
+<h3>https://vacation-tracker14.herokuapp.com/</h3>
 
 <h5>Alexander Haines</h5>
 
@@ -16,7 +16,7 @@
 <h1>:mountain: Description</h1>
 
 <p>
-Welcome to best hiking places in california. In this app you will be able to create your favorite hikinh spots for everyone to see. Join us and see how beautiful california can be.
+Welcome to the vacation tracker app were you can track all of yours and otheres people vacation to see what vacation you would like to go on next
 </p>
 
 </div>
@@ -24,26 +24,17 @@ Welcome to best hiking places in california. In this app you will be able to cre
 <details>
   <summary>:bar_chart: ERD</summary>
 
-| Description  | Screenshot |
-| :----------: | ---------- |
-| <h3>ERD</h3> | <img       |
-
-    src="https://i.imgur.com/zIDW6zY.jpg"
-    width="700"
-
-/>
-
 </details>
 
 <details>
   <summary>:art: screenshots</summary>
 
-   <h3 align="center">Home page</h3> | <img
+   <h3 align="center">add vacation page</h3> | <img
     src="https://i.imgur.com/pSQxHyP.png"
     width="700"
   />
 
-   <h3 align="center">All Hikes page</h3> | <img
+   <h3 align="center">All Vacations page</h3> | <img
     src="https://i.imgur.com/iIzY7yD.png"
     width="700"
   /> 
@@ -70,33 +61,33 @@ Welcome to best hiking places in california. In this app you will be able to cre
   <summary>How to Create a Post</summary>
   <ol>
     <li>
-      To create a post you have to click the add hike button
+      To create a post you have to click the add vacation button
     </li>
     <li>
-     Click on edit hikes to edit a hike
+     comment on others people vacations 
     </li>
-    <li>Click the add review to add a review</li>
+    
   </ol>
 </details>
 
 <details>
   <h3>:link: Links</h3>
   <summary>Trello Board</summary>
-  <a href="https://trello.com/b/2DZgcoYD/p2"
-    >https://trello.com/b/2DZgcoYD/p2</a>
+  <a href="https://trello.com/b/SM6tCjC2/vaction-social-app"
+    >https://trello.com/b/SM6tCjC2/vaction-social-app</a>
 </details>
 
 <details open>
   <summary>Deployed Link (Heroku)</summary>
-  <a href="https://hiking-california-1487.herokuapp.com/"
-    >https://hiking-california-1487.herokuapp.com/</a>
+  <a href="https://vacation-tracker14.herokuapp.com/"
+    >https://vacation-tracker14.herokuapp.com/</a>
 </details>
 ## :fast_forward: Next Steps
 
 ### Upcoming Features
 
-- [ ] Being able to get a home page button working
+- [ ] Being able to add multiple vacation pictures
 
-- [ ] Adding hikes in other states
+- [ ] links to websites that can book your vaccation
 
-- [ ] Add edit and update functionality for a user's profile
+- [ ] be able to add more images
