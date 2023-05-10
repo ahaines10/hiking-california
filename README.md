@@ -101,3 +101,42 @@ Welcome to best hiking places in california. In this app you will be able to cre
 - [ ] Adding hikes in other states
 
 - [ ] Add edit and update functionality for a user's profile
+
+### Development Instructions
+
+#### Prerequisites
+
+- [Install and start MongoDB](https://www.mongodb.com/docs/manual/installation/)
+- [Install Node](https://nodejs.org/en/download)
+
+#### Start website
+
+clone repository onto your laptop
+
+```bash
+git clone https://github.com/ahaines10/hiking-california.git
+```
+
+`cd` into the new repo
+
+```bash
+cd hiking-california
+```
+
+Install all required node dependencies
+
+```bash
+npm install
+```
+
+Run the frontend react server
+
+```bash
+npm start
+```
+
+In a separate terminal, start the backend server
+
+```bash
+node server.js
+```
