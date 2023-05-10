@@ -77,26 +77,7 @@ Welcome to best hiking places in california. In this app you will be able to cre
     </li>
     <li>Click the add review to add a review</li>
   </ol>
-  <h3> Installation Instructions </h3>
-  <ol>
-  <li>
-   Clone my repository
-  </li>
-  <li>
-   CD into hiking-california
-  </li>
-  <li>
-   download express in terminal using "npm i express"
-  </li>
-  <li>
-   connect to mongoose Data Basa
-  </li>
-  <li>
-   npm start
-  </li>
-  <li>
-   nodemon
-  </li>
+  
 </details>
 
 <details>
