@@ -80,12 +80,22 @@ Welcome to best hiking places in california. In this app you will be able to cre
   <h3> Installation Instructions </h3>
   <ol>
   <li>
-  1. Clone my repository
-  2. CD into hiking-california
-  3. download express in terminal using "npm i express"
-  4. connect to mongoose Data Basa
-  5. npm start
-  6. nodemon
+   Clone my repository
+  </li>
+  <li>
+   CD into hiking-california
+  </li>
+  <li>
+   download express in terminal using "npm i express"
+  </li>
+  <li>
+   connect to mongoose Data Basa
+  </li>
+  <li>
+   npm start
+  </li>
+  <li>
+   nodemon
   </li>
 </details>
 
