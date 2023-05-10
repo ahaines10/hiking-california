@@ -1,7 +1,7 @@
 * {
   box-sizing: border-box;
   font-family: Helvetica;
-  color: #1342ba;
+  color: #fafafa;
 }
 
 body {
@@ -49,6 +49,7 @@ nav > a {
   text-decoration: none;
   padding: 10px;
   border-radius: 5px;
+  color: white;
 }
 
 nav > a:hover:not(.active) {
@@ -208,4 +209,12 @@ hr {
 }
 #homepage .carousel-item img {
   height: 100%;
+}
+
+.card-text {
+  color: black;
+}
+
+.card-title {
+  color: black;
 }
