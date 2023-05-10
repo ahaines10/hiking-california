@@ -48,6 +48,7 @@ Welcome to best hiking places in california. In this app you will be able to cre
     width="700"
   /> 
 </details>
+
 ## :computer: Technologies Used
 
 ![MongoDB](https://img.shields.io/badge/-MongoDB-333?style=flat&logo=mongodb)
@@ -92,7 +93,6 @@ Welcome to best hiking places in california. In this app you will be able to cre
   <a href="https://hiking-california-1487.herokuapp.com/"
     >https://hiking-california-1487.herokuapp.com/</a>
 </details>
-## :fast_forward: Next Steps
 
 ### Upcoming Features
 
