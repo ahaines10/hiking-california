@@ -1,70 +1,81 @@
 <%- include('../partials/header') %>
-<img src="<%= hike.image %>" width="200px"></img>
-<label>name:</label>
-<h2><%= hike.name%></h2>
-<label>location:</label>
-<h2><%= hike.location%></h2>
-<label>difficulty</label>
-<h2><%= hike.difficulty%></h2>
-<label>swimming</label>
-<h2><%= hike.swimming ? "yes" : "no"%></h2>
-<a href="/hikes/<%=hike._id%>/edit">edit</a>
-<br><br><h2>Reviews</h2>
+<div class="imgleft">
+  <div><img class="img1" src="<%= hike.image %>" /></div>
+  <div>
+    <h1>name:</h1>
+    <label><%= hike.name%></label>
+    <h1>location:</h1>
+    <label><%= hike.location%></label>
+    <h1>difficulty:</h1>
+    <label><%= hike.difficulty%></label>
+    <h1>swimming:</h1>
+    <label><%= hike.swimming ? "yes" : "no"%></label>
+  </div>
+  <button class="edit">
+    <a href="/hikes/<%=hike._id%>/edit">edit</a>
+  </button>
+</div>
+<br /><br />
+<h2>Reviews</h2>
 
 <% if (user) { %>
-  <form id="add-review-form" method="POST"
-    action="/hikes/<%= hike._id %>/reviews">
-    <label>Review:</label>
-    <textarea name="content"></textarea>
-    <label>Rating:</label>
-    <select name="rating">
-      <option value="1">1</option>
-      <option value="2">2</option>
-      <option value="3">3</option>
-      <option value="4">4</option>
-      <option value="5" selected>5</option>
-    </select>
-    <input type="submit" value="Add Review">
-  </form>
-<% } %>
-
-<% if (hike.reviews.length) { %>
-  <table>
-    <thead>
-      <tr>
-        <th>User</th>
-        <th>Date</th>
-        <th>Review</th>
-        <th>Rating</th>
-        <th></th>
-      </tr>
-    </thead>
-    <tbody>
-      <% let sum = 0; %>
-      <% hike.reviews.forEach(function(r) { %>
-        <% sum += r.rating %>
-        <tr>
-          <td class="review-user"><img src="<%= r.userAvatar %>" alt="avatar" referrerpolicy="no-referrer"><%= r.userName %></td>
-          <td><%= r.createdAt.toLocaleDateString() %></td>
-          <td><%= r.content %></td>
-          <td><%= r.rating %></td>
-          <td>
-            <% if ( user?._id.equals(r.user) ) { %>
-              <form action="/reviews/<%= r._id %>?_method=DELETE" method="POST">
-                <button type="submit">X</button>
-              </form>
-            <% } %>
-          </td>
-        </tr>
-        <% }); %>
-        <tr>
-          <td colspan="3"></td>
-          <td><%= (sum / hike.reviews.length).toFixed(2) %></td>
-        </tr>
-    </tbody>
-  </table>
+<form
+  id="add-review-form"
+  method="POST"
+  action="/hikes/<%= hike._id %>/reviews"
+>
+  <label>Review:</label>
+  <textarea name="content"></textarea>
+  <label>Rating:</label>
+  <select name="rating">
+    <option value="1">1</option>
+    <option value="2">2</option>
+    <option value="3">3</option>
+    <option value="4">4</option>
+    <option value="5" selected>5</option>
+  </select>
+  <input type="submit" value="Add Review" />
+</form>
+<% } %> <% if (hike.reviews.length) { %>
+<table>
+  <thead>
+    <tr>
+      <th>User</th>
+      <th>Date</th>
+      <th>Review</th>
+      <th>Rating</th>
+      <th></th>
+    </tr>
+  </thead>
+  <tbody>
+    <% let sum = 0; %> <% hike.reviews.forEach(function(r) { %> <% sum +=
+    r.rating %>
+    <tr>
+      <td class="review-user">
+        <img
+          src="<%= r.userAvatar %>"
+          alt="avatar"
+          referrerpolicy="no-referrer"
+        /><%= r.userName %>
+      </td>
+      <td><%= r.createdAt.toLocaleDateString() %></td>
+      <td><%= r.content %></td>
+      <td><%= r.rating %></td>
+      <td>
+        <% if ( user?._id.equals(r.user) ) { %>
+        <form action="/reviews/<%= r._id %>?_method=DELETE" method="POST">
+          <button type="submit">X</button>
+        </form>
+        <% } %>
+      </td>
+    </tr>
+    <% }); %>
+    <tr>
+      <td colspan="3"></td>
+      <td><%= (sum / hike.reviews.length).toFixed(2) %></td>
+    </tr>
+  </tbody>
+</table>
 <% } else { %>
-  <h5>No Reviews Yet</h5>
-<% } %>
-
-<%- include('../partials/footer') %>
+<h5>No Reviews Yet</h5>
+<% } %> <%- include('../partials/footer') %>

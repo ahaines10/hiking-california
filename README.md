@@ -129,14 +129,8 @@ Install all required node dependencies
 npm install
 ```
 
-Run the frontend react server
+start the backend server
 
 ```bash
 npm start
-```
-
-In a separate terminal, start the backend server
-
-```bash
-node server.js
 ```
