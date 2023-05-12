@@ -288,3 +288,6 @@ select {
 .color {
   color: black;
 }
+textarea {
+  color: black;
+}
