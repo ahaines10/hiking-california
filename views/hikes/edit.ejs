@@ -7,11 +7,13 @@
   <label>Location:</label>
   <input type="text" name="location" value="<%=hike.location %>" />
   <label>Difficulty:</label>
-  <select name="difficulty" value="<%=hike.difficulty%>">
-    <option value="beginner">beginner</option>
-    <option value="intermediate">intermediate</option>
-    <option value="advanced">advanced</option>
-  </select>
+  <div class="slec">
+    <select class="color" name="difficulty" value="<%=hike.difficulty%>">
+      <option value="beginner">beginner</option>
+      <option value="intermediate">intermediate</option>
+      <option value="advanced">advanced</option>
+    </select>
+  </div>
   <label>swimming:</label>
   <input type="checkbox" name="swimming" value="<%= hike.swimming %>" />
   <!-- <input type="submit" value="Add Hike" /> -->

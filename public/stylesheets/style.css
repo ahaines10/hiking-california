@@ -277,3 +277,14 @@ label {
 .clrchg {
   color: black;
 }
+
+input {
+  color: black;
+}
+select {
+  color: black;
+}
+
+.color {
+  color: black;
+}
